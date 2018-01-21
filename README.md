@@ -7,17 +7,21 @@
 # Как использовать
 
 Импорт модуля осуществляется инструкцией:
-`from quadratic_equation import get_roots`
+```python
+from quadratic_equation import get_roots
+```
 
 В функцию `get_roots()` передаются три аргумента, соответствующие коэффициентам уравнения.
  
-`root1, root2 = get_roots(a, b, c)`
+```python
+root1, root2 = get_roots(a, b, c)
+```
 
 в результате выполнения функции, будет получено решение в зависимости от заданных коэффициентов.
 
 например:
 
-```bash
+```python
 from quadratic_equation import get_roots
 
 a  =  1
